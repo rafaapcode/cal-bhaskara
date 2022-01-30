@@ -5,6 +5,12 @@
     font-family: Helvetica, sans-serif;
 }
 
+body{
+    background-image: url("/assets/math.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 @keyframes animacaresultado{
     from{font-size: 30px;}
     to{font-size: 55px;}
@@ -13,7 +19,8 @@
 .container{
     width: 500px;
     height: 1000px;
-    background-color: gray;
+    background-color: rgba(124, 124, 124, 0.5);
+    opacity: 90%;
     text-align: center;
     margin: auto;
     margin-top: 10px;
