@@ -24,12 +24,15 @@ const bhaskara = function () {
         const x1calc = (bneg + quadradaDelta) / div;
         const x2calc = (bneg - quadradaDelta) / div;
 
-        x1.innerHTML = `O x1 é igual a: ${x1calc}`;
-        x2.innerHTML = `O x2 é igual a: ${x2calc}`;
+        x1.innerHTML = `O x1 é igual a: ${Math.round(x1calc)}`;
+        x2.innerHTML = `O x2 é igual a: ${Math.round(x2calc)}`;
     }else{
         x1.innerHTML = `Não existe raiz de Número negativo.`;
+        x2.style.display = "none";
     }
 }
+
+
 
 btn.addEventListener("click", bhaskara);
 
