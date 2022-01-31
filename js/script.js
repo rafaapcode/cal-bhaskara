@@ -26,6 +26,7 @@ const bhaskara = function () {
 
         x1.innerHTML = `O x1 é igual a: ${Math.round(x1calc)}`;
         x2.innerHTML = `O x2 é igual a: ${Math.round(x2calc)}`;
+        x2.style.display = "block";
     }else{
         x1.innerHTML = `Não existe raiz de Número negativo.`;
         x2.style.display = "none";
