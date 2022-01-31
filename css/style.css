@@ -32,7 +32,7 @@ h1{
     text-shadow: 5px 5px 10px gray;
 }
 
-.container p:last-child{
+.container .deltaValor{
     font-size: 30px;
     animation-name: animacaresultado;
     animation-duration: 2s;
@@ -42,7 +42,7 @@ h1{
 
 
 
-.valores #btn{
+.container #btn{
     display: block;
     margin: auto;
     margin-top: 20px;
@@ -100,4 +100,15 @@ h1{
 h3{
     font-size: 25px;
     color: rgb(36, 197, 36);
+}
+
+
+
+.x1, .x2{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
 }
